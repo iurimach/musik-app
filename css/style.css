@@ -3,21 +3,23 @@
     position: relative;
     background-color: #15171C;
     height: 1040px;
-    max-width: 1717px;
-    width: 100%;
-    
-    background-color: #23AEFC;
+    width: 1717px;
     border-radius: 0px 30px 30px 0px;
- 
+    
+
+
 }
 .leftwrapper{
-    max-width: 84px;
-    
+    width: 84px;
     height: 1035px;
     background-color: #070A0F;
     display: inline-block;
     border-radius: 30px 0px  0px 30px;
- 
+    
+    
+    
+    
+   
     
 }
 
@@ -123,14 +125,11 @@ margin-top: 20px;
     
 
     height: 1117px;
-    
-    
+    width: 1300px;
     
 }
 .centrwrapper{
    display: flex;
-   width: 100%;
-   
     
     background-color: #15171C;
     height: 940px;
@@ -138,29 +137,25 @@ margin-top: 20px;
 
 }
 .header{
-   max-width: 1616px;
-   width: 100%;
+    width: 1616px;
     height: 91px;
     border-radius: 0px 30px  0px 0px;
     
     background: #15171C;
-   
     display: flex;
   
 
 
     }
 .divulli{
-    max-width: 442px;
-    width: 100%;
+    width: 442px;
     height: 42px;
     
 
 }
 .ul1{
     display: flex;
-    max-width: 442px;
-    width: 100%;
+    width: 442px;
     height: 42px;
     
     
@@ -197,8 +192,7 @@ color: #78808C;
 
 }
 .divshearch{
-    max-width: 442px;
-    width: 100%;
+    width: 442px;
     height: 42px;
     margin-left: 517px;
     margin-top: 20px;
@@ -209,8 +203,7 @@ color: #78808C;
     
 }
 .divshearch>input{
-    max-width: 442px;
-    width: 100%;
+    width: 442px;
 height: 42px;
 
 position: absolute;
@@ -238,7 +231,7 @@ bottom: 9.38%;
     position: absolute;
     width: 24px;
 height: 24px;
-margin-left: 239px;
+margin-left: 399px;
 margin-top: 9px;
 
 }
@@ -260,8 +253,7 @@ height: 24px;
 /*                   centr   headeris qvemot  seqcia               */
 
 .centr{
-    max-width: 250px;
-    width: 100%;
+    width: 250px;
     height: 944px;
     background: #15171C;
    
@@ -352,8 +344,7 @@ color: #FFFFFF;
 }
 
 .centrdiv2div1{
-    max-width: 165px;
-    width: 100%;
+    width: 189px;
 height: 21px;
 margin-top: 6px;
 display: flex;
@@ -513,8 +504,7 @@ color: #23AEFC;
 
 .rightwrapper{
     
-    max-width: 1394px;
-    width: 100%;
+    width: 1394px;
     height: 860px;
     background-color: #070A0F;
     border-radius: 18px 0px 0px 18px;
@@ -524,8 +514,7 @@ color: #23AEFC;
 
 .coverimg{
     background-image: url("../img/cver.jpg");
-    max-width: 1364px;
-    width: 97%;
+    width: 1364px;
     height: 285px;
     margin-left: 30px;
     margin-top: 30px;
@@ -535,8 +524,7 @@ color: #23AEFC;
     background-position: center;
 }
 .rightwrapper-div1{
-   max-width: 1366px;
-   
+   width: 1366px;
 height: 255px;
 margin-left: 30px;
 margin-top: 20px;
@@ -544,8 +532,7 @@ margin-top: 20px;
 ;
 }
 .rightwrapper-div1-header{
-    max-width: 1366px;
-    width: 100%;
+    width: 1366px;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -616,8 +603,7 @@ border-radius: 18px;
  }
  .rightwrapper-div1-wrapper{
     display: flex;
-    max-width: 1366px;
-    width: 100%;
+    width: 1366px;
     
     
     overflow: hidden;
@@ -657,8 +643,7 @@ color: #78808C;
 }
 
 .conteinermusik{
-    max-width: 1314px;
-    width: 100%;
+    width: 1314px;
 height: 250px;
 margin-left: 30px;
 overflow: hidden;
@@ -687,8 +672,7 @@ line-height: 22px;
 color: #FFFFFF;
 }
 .conteinermusik-div1{
-    max-width: 1314px;
-    width: 97%;
+    width: 1314px;
     height: 54px;
     left: 0px;
     margin-top: 12px;
@@ -884,8 +868,7 @@ color: #78808C;
 
 
 .footercont{
-   max-width: 1394px;
-   width: 100%;
+    width: 1394px;
     height: 84px;
     background: #15171C;
     display: flex;
