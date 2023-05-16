@@ -165,32 +165,32 @@
                         </div>
                         <div class="rightwrapper-div1-wrapper">
                             <div class="rightwrapper-div1-imgboxzero">
-                                <img src="img/img1.svg" alt="err">
+                                <img src="img/img1.svg" alt="err" onclick="playmusik()">
                                 <p class="rightwrapper-div1-imgboxp1"> Fate of Norns</p>
                                 <p class="rightwrapper-div1-imgboxp2"> Amon Amarth</p>
                             </div>
                             <div class="rightwrapper-div1-imgbox">
-                                <img src="img/img2.svg" alt="err">
+                                <img src="img/img2.svg" alt="err" onclick="musik2()">
                                 <p class="rightwrapper-div1-imgboxp1"> Swamplord</p>
                                 <p class="rightwrapper-div1-imgboxp2"> Kalmah</p>
                             </div>
                             <div class="rightwrapper-div1-imgbox">
-                                <img src="img/img3.svg" alt="err">
+                                <img src="img/img3.svg" alt="err" onclick="musik3()">
                                 <p class="rightwrapper-div1-imgboxp1"> Hatebreeder</p>
                                 <p class="rightwrapper-div1-imgboxp2"> Children of Bodom</p>
                             </div>
                             <div class="rightwrapper-div1-imgbox">
-                                <img src="img/img4.svg" alt="err">
+                                <img src="img/img4.svg" alt="err" onclick="playmusik()" >
                                 <p class="rightwrapper-div1-imgboxp1"> Wintersun</p>
                                 <p class="rightwrapper-div1-imgboxp2"> Wintersun</p>
                             </div>
                             <div class="rightwrapper-div1-imgbox">
-                                <img src="img/img5.svg" alt="err">
+                                <img src="img/img5.svg" alt="err" onclick="musik2()">
                                 <p class="rightwrapper-div1-imgboxp1"> Death Unlimited	</p>
                                 <p class="rightwrapper-div1-imgboxp2"> Norther</p>
                             </div>
                             <div class="rightwrapper-div1-imgbox">
-                                <img src="img/img6.svg" alt="err">
+                                <img src="img/img6.svg" alt="err" onclick="musik3()">
                                 <p class="rightwrapper-div1-imgboxp1"> Across the Dark
                                 </p>
                                 <p class="rightwrapper-div1-imgboxp2"> Insomnium</p>
@@ -217,7 +217,7 @@
                         <div class="conteinermusik-div1">
                             <div class="conteinermusik-div1-newadd">
                                 <p class="conteinermusik-div1-number">#1</p>
-                                <div class="conteinermusik-div1-fotocont"> <img src="img/musik1.svg" alt="">
+                                <div class="conteinermusik-div1-fotocont"> <img src="img/musik1.svg" alt="" onclick="playmusik()">
                                     <div>
                                         <p class="conteinermusik-div1-fotocont-p1">Dreams of Endl..</p>
                                         <p class="conteinermusik-div1-fotocont-p2">Norther</p>
@@ -237,7 +237,7 @@
                         <div class="conteinermusik-div1">
                             <div class="conteinermusik-div1-newadd">
                                 <p class="conteinermusik-div1-number">#2</p>
-                                <div class="conteinermusik-div1-fotocont"> <img src="img/musik2.svg" alt="">
+                                <div class="conteinermusik-div1-fotocont"> <img src="img/musik2.svg" alt="" onclick="musik2()">
                                     <div>
                                         <p class="conteinermusik-div1-fotocont-p1">Nordland I </p>
                                         <p class="conteinermusik-div1-fotocont-p2">Bathory</p>
@@ -258,7 +258,7 @@
                         <div class="conteinermusik-div1">
                             <div class="conteinermusik-div1-newadd">
                                 <p class="conteinermusik-div1-number">#3</p>
-                                <div class="conteinermusik-div1-fotocont"> <img src="img/musik3.svg" alt="">
+                                <div class="conteinermusik-div1-fotocont"> <img src="img/musik3.svg" alt=""  onclick="musik3()">
                                     <div>
                                         <p class="conteinermusik-div1-fotocont-p1">Voimasta ja ku..</p>
                                         <p class="conteinermusik-div1-fotocont-p2">Moonsorrow</p>
@@ -340,11 +340,11 @@
                                 <p class="footercont-div1-p2">Mercyful Fate</p>
                              </div>
                              <div class="foter-buttons-wrapper">
-                                <button class="fbt1"><img src="icon/footer/fbt1.svg" alt="" class="class="fbt1-icon></button>
+                                <button class="fbt1"  ><img src="icon/footer/fbt1.svg" alt="" class="class="fbt1-icon></button>
                                 <button class="fbt1"><img src="icon/footer/fbt2.svg" alt=""class="class="fbt1-icon></button>
-                                <button class="fbt1"><img src="icon/footer/fbt3.svg" alt=""class="class="fbt1-icon></button>
-                                <button class="fbt1"><img src="icon/footer/fbt4.svg" alt=""class="class="fbt1-icon></button>
-                                <button class="fbt1"><img src="icon/footer/fbt5.svg" alt=""class="class="fbt1-icon></button>
+                                <button class="fbt1" onclick="stopmusik()"><img src="icon/footer/fbt3.svg" alt=""class="class="fbt1-icon></button>
+                                <button class="fbt1" onclick="musik2()"><img src="icon/footer/fbt4.svg" alt=""class="class="fbt1-icon></button>
+                                <button class="fbt1"   onclick="stopmusik()"><img src="icon/footer/fbt5.svg" alt=""class="class="fbt1-icon></button>
                              </div>
                              <p class="futer-p">02:14</p>
                              <div class="musikline"> <img src="icon/cont-musik/musikline.svg" alt=""></div>
@@ -368,8 +368,14 @@
         </section>
     </section>
     
+    
+    
+     <audio  src="musik/musik1.mp3"  id="myaudio"></audio>
 
 
+
+
+    <script src="app.js"></script>
 
 </body>
 </html>
